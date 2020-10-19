@@ -6,10 +6,70 @@ body{
     background-color: rgb(117, 78, 153);
 
 }
+header h1{
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    border-radius: 4px;
+
+    box-shadow: 3px 3px 5px rgba(0,0 ,0 , .5);
+    background: linear-gradient(to right,rgb(122, 74, 167), rgb(72, 145, 240));
+}
 main{
     background-color: white;
-    width: 500px;
-    margin: auto;
+    width: 90%;
+    margin: 0 auto;
     box-shadow: 3px 3px 5px rgba(0,0 ,0 , .5);
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+main article{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+article{
+    background-color: rgba(216, 191, 216, 0.822);
+    width: 500px;
+    max-width: 80%;
+    text-align: justify;
     padding: 20px;
+    margin: 10px auto;
+    box-shadow: 10px 10px 10px rgba(0,0 ,0 , .5);
+}
+@media (min-width:1285px){
+    main{
+        text-align: justify;
+    }
+}
+article a:hover{
+    background-color: rgb(26, 24, 24);
+    transition: .2s ease-in;
+}
+article a{
+    text-align: center;
+    width: 500px;
+    font-size: 18pt;
+    text-decoration: none;
+    padding: 20px 50px 20px 50px;
+    margin-bottom:10px ;
+    margin: 0 auto;
+    color: white;
+    background-color: rgb(40, 141, 48);
+    box-shadow: 5px 5px 8px rgba(0,0 ,0 , .8);
+    border-radius: 10px;
+}
+
+
+h1{
+color:blue;
+}
+h2{ 
+    color:green;
+}
+
+
+footer{
+    text-align: center;
 }
