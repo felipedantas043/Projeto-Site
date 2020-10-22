@@ -63,6 +63,7 @@ article a{
 }
 article p{
     height: 100px;
+    overflow: auto;
 }
 
 h1{
