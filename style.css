@@ -3,7 +3,7 @@
     font-size: 18px;
 }
 body{
-    background-color: rgb(117, 78, 153);
+    background-color: rgb(31, 30, 32);
 
 }
 header h1{
@@ -13,10 +13,10 @@ header h1{
     border-radius: 4px;
 
     box-shadow: 3px 3px 5px rgba(0,0 ,0 , .5);
-    background: linear-gradient(to right,rgb(122, 74, 167), rgb(72, 145, 240));
+    background: linear-gradient(to right,rgb(149, 140, 158), rgb(151, 153, 156));
 }
 main{
-    background-color: white;
+    background-color: rgb(51, 43, 43);
     width: 90%;
     margin: 0 auto;
     box-shadow: 3px 3px 5px rgba(0,0 ,0 , .5);
@@ -30,7 +30,8 @@ main article{
     flex-wrap: wrap;
 }
 article{
-    background-color: rgba(216, 191, 216, 0.822);
+    background-color: rgba(122, 116, 122, 0.822);
+    color:white;
     width: 500px;
     max-width: 80%;
     text-align: justify;
@@ -73,7 +74,8 @@ h2{
 
 
 footer{
-    border-top: 1px solid black;
+    color: white;
+    border-top: 1px solid white;
     margin-top: 20px;
     text-align: center;
 }
